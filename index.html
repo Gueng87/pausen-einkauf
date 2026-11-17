@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2f6f4e">
+  <title>Pausen-Einkauf</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Pausen-Einkauf</h1>
+
+    <section id="feedback" class="card feedback" hidden>
+      <h2>Hat dein letzter Korb gereicht?</h2>
+      <div class="row">
+        <button type="button" data-answer="zu-wenig">zu wenig</button>
+        <button type="button" data-answer="genau-richtig">genau richtig</button>
+        <button type="button" data-answer="zu-viel">zu viel</button>
+      </div>
+      <label class="check"><input type="checkbox" id="reserve-eaten"> Reserve gegessen</label>
+    </section>
+
+    <section class="controls" aria-label="Auswahl">
+      <div class="group" role="group" aria-label="Laden" data-group="store">
+        <button type="button" data-value="coop">Coop</button>
+        <button type="button" data-value="migros">Migros</button>
+      </div>
+      <div class="group" role="group" aria-label="Mahlzeit" data-group="meal">
+        <button type="button" data-value="mittag">Mittag</button>
+        <button type="button" data-value="abend">Abend</button>
+      </div>
+      <p class="label">Bis zum nächsten Essen</p>
+      <div class="group" role="group" aria-label="Dauer" data-group="duration">
+        <button type="button" data-value="3">3 h</button>
+        <button type="button" data-value="4-5">4–5 h</button>
+        <button type="button" data-value="6">6 h</button>
+      </div>
+    </section>
+
+    <section id="baskets" aria-live="polite"></section>
+
+    <footer>
+      <label class="check"><input type="checkbox" id="reserve-available"> Reserve in der Garderobe vorhanden</label>
+      <p id="list-date"></p>
+      <p id="list-stale" class="warn" hidden>Die Produktliste ist älter als einen Monat und sollte aufgefrischt werden.</p>
+    </footer>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
