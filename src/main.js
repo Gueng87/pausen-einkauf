@@ -174,8 +174,19 @@ start();
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState !== "visible") return;
   setupFeedback();
+  // Beim Zurueckkehren nach einer neuen Version fragen (die App bleibt auf dem Handy oft tagelang offen).
+  navigator.serviceWorker?.getRegistration().then((reg) => reg?.update()).catch(() => {});
 });
 
 if ("serviceWorker" in navigator) {
+  // Lief schon eine alte Version, die Seite einmal neu laden, sobald die neue uebernimmt.
+  // Beim allerersten Besuch (noch kein Controller) wird nicht neu geladen.
+  const hadController = Boolean(navigator.serviceWorker.controller);
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!hadController || reloaded) return;
+    reloaded = true;
+    location.reload();
+  });
   navigator.serviceWorker.register("sw.js").catch(() => {});
 }
