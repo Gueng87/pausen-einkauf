@@ -942,50 +942,6 @@
       "image": "img/coop-blumenkohl-kichererbsenmus.jpg"
     },
     {
-      "id": "coop-tofu-fume",
-      "store": "coop",
-      "name": "Tofu geräuchert (Karma)",
-      "portion": "1 Packung (200 g)",
-      "priceChf": 2.95,
-      "kcal": 258,
-      "proteinG": 26,
-      "fiberG": 3.6,
-      "sugarG": 1.2,
-      "prep": "kalt",
-      "microwaveMin": 0,
-      "role": "beilage",
-      "meals": [
-        "mittag",
-        "abend"
-      ],
-      "offCode": "7627535159527",
-      "sourceUrl": "https://world.openfoodfacts.org/product/7627535159527",
-      "checkedAt": "2026-11-17",
-      "image": "img/coop-tofu-fume.jpg"
-    },
-    {
-      "id": "coop-vegi-smokey-tofu",
-      "store": "coop",
-      "name": "Vegi Smokey Tofu (Betty Bossi)",
-      "portion": "1 Packung (200 g)",
-      "priceChf": null,
-      "kcal": 216,
-      "proteinG": 30,
-      "fiberG": 0,
-      "sugarG": 1.2,
-      "prep": "kalt",
-      "microwaveMin": 0,
-      "role": "beilage",
-      "meals": [
-        "mittag",
-        "abend"
-      ],
-      "offCode": "7613356379459",
-      "sourceUrl": "https://world.openfoodfacts.org/product/7613356379459",
-      "checkedAt": "2026-11-17",
-      "image": "img/coop-vegi-smokey-tofu.jpg"
-    },
-    {
       "id": "coop-kefir-erdbeere",
       "store": "coop",
       "name": "Kefir Drink Erdbeere",
@@ -1560,72 +1516,6 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7611654107422",
       "checkedAt": "2026-11-17",
       "image": "img/coop-joghurt-natur.jpg"
-    },
-    {
-      "id": "coop-basilikum-tofu-bio",
-      "store": "coop",
-      "name": "Basilikum-Tofu Bio (Karma)",
-      "portion": "1 Packung (230 g)",
-      "priceChf": null,
-      "kcal": 290,
-      "proteinG": 27.6,
-      "fiberG": 3.2,
-      "sugarG": 1.6,
-      "prep": "kalt",
-      "microwaveMin": 0,
-      "role": "beilage",
-      "meals": [
-        "mittag",
-        "abend"
-      ],
-      "offCode": "15650351",
-      "sourceUrl": "https://world.openfoodfacts.org/product/15650351",
-      "checkedAt": "2026-11-17",
-      "image": "img/coop-basilikum-tofu-bio.jpg"
-    },
-    {
-      "id": "coop-bbq-tofu-bio",
-      "store": "coop",
-      "name": "BBQ-Tofu Bio (Karma)",
-      "portion": "1 Packung (220 g)",
-      "priceChf": null,
-      "kcal": 314,
-      "proteinG": 30.8,
-      "fiberG": 1.8,
-      "sugarG": 8,
-      "prep": "kalt",
-      "microwaveMin": 0,
-      "role": "beilage",
-      "meals": [
-        "mittag",
-        "abend"
-      ],
-      "offCode": "7627534166045",
-      "sourceUrl": "https://world.openfoodfacts.org/product/7627534166045",
-      "checkedAt": "2026-11-17",
-      "image": "img/coop-bbq-tofu-bio.jpg"
-    },
-    {
-      "id": "coop-olive-zitrone-tofu-bio",
-      "store": "coop",
-      "name": "Oliven-Zitronen-Tofu Bio (Karma)",
-      "portion": "1 Packung (220 g)",
-      "priceChf": null,
-      "kcal": 216,
-      "proteinG": 26.4,
-      "fiberG": 1.6,
-      "sugarG": 2,
-      "prep": "kalt",
-      "microwaveMin": 0,
-      "role": "beilage",
-      "meals": [
-        "mittag",
-        "abend"
-      ],
-      "offCode": "7627534191054",
-      "sourceUrl": "https://world.openfoodfacts.org/product/7627534191054",
-      "checkedAt": "2026-11-17",
-      "image": "img/coop-olive-zitrone-tofu-bio.jpg"
     },
     {
       "id": "coop-broetli-lachs",
