@@ -91,10 +91,41 @@ function el(tag, props = {}, ...children) {
   return node;
 }
 
-/** Kleines Produktfoto; ohne Foto ein leerer Platzhalter gleicher Grösse, damit der Text bündig bleibt. */
-function thumbnail(p) {
+/** Kleines Produktfoto als Knopf (Tippen vergrössert); ohne Foto ein leerer Platzhalter gleicher Grösse. */
+function thumbnail(p, handlers) {
   if (!p.image) return el("span", { class: "thumb thumb-empty", "aria-hidden": "true" });
-  return el("img", { class: "thumb", src: p.image, alt: "", width: 48, height: 48, loading: "lazy" });
+  const btn = el(
+    "button",
+    { type: "button", class: "thumb-btn", "aria-label": `Foto vergrössern: ${p.name}`, onclick: () => handlers.onZoom?.(p, btn) },
+    el("img", { class: "thumb", src: p.image, alt: "", width: 48, height: 48, loading: "lazy" }),
+  );
+  return btn;
+}
+
+let photoTrigger = null;
+
+/** Öffnet den Foto-Dialog. parts: { dialog, img, name, closeBtn }; trigger bekommt beim Schliessen den Fokus. */
+export function openPhoto(parts, product, trigger) {
+  if (typeof parts.dialog.showModal !== "function") return; // sehr alte Browser: Foto bleibt klein
+  // Altes Foto zuerst entfernen, damit nie kurz das vorherige Produkt mit dem neuen Namen erscheint.
+  if (typeof parts.img.removeAttribute === "function") parts.img.removeAttribute("src");
+  parts.img.setAttribute("src", product.image);
+  parts.name.textContent = product.name;
+  photoTrigger = trigger ?? null;
+  parts.dialog.showModal();
+}
+
+/** Schliessen per Knopf und per Tippen neben das Bild (Escape macht <dialog> selbst); danach Fokus zurück. */
+export function setupPhotoDialog({ dialog, img, closeBtn }) {
+  closeBtn.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (e) => {
+    if (e.target !== img && e.target !== closeBtn) dialog.close();
+  });
+  dialog.addEventListener("close", () => {
+    const t = photoTrigger;
+    photoTrigger = null;
+    t?.focus();
+  });
 }
 
 const TITLES = { kalt: "KALT", mikrowelle: "MIKROWELLE" };
@@ -102,7 +133,7 @@ const TITLES = { kalt: "KALT", mikrowelle: "MIKROWELLE" };
 /**
  * Eine Korb-Karte.
  * view: { prep, basket, notice, targets, reason, successes, taken }
- * handlers: { onOther(prep), onTake(prep), onDislike(prep, id) }
+ * handlers: { onOther(prep), onTake(prep), onDislike(prep, id), onZoom(product, button) }
  */
 export function renderBasketCard(view, handlers) {
   const { prep, basket, targets, successes, taken } = view;
@@ -126,7 +157,7 @@ export function renderBasketCard(view, handlers) {
       el(
         "li",
         {},
-        thumbnail(p),
+        thumbnail(p, handlers),
         el("span", { class: "item-text" }, el("span", { class: "item-name" }, p.name), el("span", { class: "item-meta" }, meta.filter(Boolean).join(" · ")), restHint(p.portion) ? el("span", { class: "item-meta" }, restHint(p.portion)) : null),
         el("button", { type: "button", "data-dislike": p.id, onclick: () => handlers.onDislike(prep, p.id) }, "mag ich nicht"),
       ),

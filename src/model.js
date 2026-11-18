@@ -59,6 +59,9 @@ function validateProduct(p, index) {
   if (p.image !== undefined && p.image !== null && !(typeof p.image === "string" && IMAGE_RE.test(p.image))) {
     errors.push(`${label}: image muss null oder ein Pfad wie img/<id>.jpg sein`);
   }
+  if (p.keepsOpen !== undefined && typeof p.keepsOpen !== "boolean") {
+    errors.push(`${label}: keepsOpen muss true oder false sein`);
+  }
   return errors;
 }
 

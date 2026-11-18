@@ -3,7 +3,7 @@ import { buildBaskets, nextBasket, reasonText } from "./engine.js";
 import { getTargets } from "./targets.js";
 import { applyFeedback, pendingFeedback, countSuccesses } from "./feedback.js";
 import { validateProducts } from "./model.js";
-import { renderBasketCard, markReserveBought, formatDate, isListStale, mealForHour, prepsContaining } from "./ui.js";
+import { renderBasketCard, markReserveBought, formatDate, isListStale, mealForHour, prepsContaining, openPhoto, setupPhotoDialog } from "./ui.js";
 
 const SELECTION_KEY = "pausen-einkauf:auswahl";
 const PREPS = ["kalt", "mikrowelle"];
@@ -73,7 +73,18 @@ function renderControls() {
   }
 }
 
+const photo = {
+  dialog: $("#photo-dialog"),
+  img: $("#photo-img"),
+  name: $("#photo-name"),
+  closeBtn: $("#photo-close"),
+};
+setupPhotoDialog(photo);
+
 const handlers = {
+  onZoom(product, button) {
+    openPhoto(photo, product, button);
+  },
   onOther(prep) {
     const cur = view[prep].basket;
     const r = nextBasket(products, query, state, prep, cur ? cur.key : null, Math.random);
