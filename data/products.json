@@ -681,7 +681,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535203831",
       "checkedAt": "2026-11-17",
       "image": "img/coop-proteinbrot.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-aelplerbrot-bio",
@@ -704,7 +705,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7627537726772",
       "checkedAt": "2026-11-17",
       "image": "img/coop-aelplerbrot-bio.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-puurebrot-bio",
@@ -727,7 +729,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535145940",
       "checkedAt": "2026-11-17",
       "image": "img/coop-puurebrot-bio.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-nussbrot",
@@ -750,7 +753,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7627536983503",
       "checkedAt": "2026-11-17",
       "image": "img/coop-nussbrot.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-sandwich-toast",
@@ -773,7 +777,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7627538244107",
       "checkedAt": "2026-11-17",
       "image": "img/coop-sandwich-toast.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-knaeckebrot-kaese-kuerbiskern",
@@ -796,7 +801,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7610829128231",
       "checkedAt": "2026-11-17",
       "image": "img/coop-knaeckebrot-kaese-kuerbiskern.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-pancroc",
@@ -819,7 +825,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534482510",
       "checkedAt": "2026-11-17",
       "image": "img/coop-pancroc.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "coop-hummus-nature-bio",
@@ -841,7 +848,8 @@
       "offCode": "7613413464616",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413464616",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-hummus-nature-bio.jpg"
+      "image": "img/coop-hummus-nature-bio.jpg",
+      "needs": "dip"
     },
     {
       "id": "coop-hummus-piri-piri",
@@ -863,7 +871,8 @@
       "offCode": "7610849112517",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610849112517",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-hummus-piri-piri.jpg"
+      "image": "img/coop-hummus-piri-piri.jpg",
+      "needs": "dip"
     },
     {
       "id": "coop-hummus-pesto-verde",
@@ -885,7 +894,8 @@
       "offCode": "7627535720147",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535720147",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-hummus-pesto-verde.jpg"
+      "image": "img/coop-hummus-pesto-verde.jpg",
+      "needs": "dip"
     },
     {
       "id": "coop-falafel-tahina-dip",
@@ -1216,7 +1226,8 @@
       "offCode": "7613356204508",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613356204508",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-nuesslisalat.jpg"
+      "image": "img/coop-nuesslisalat.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-eisbergsalat",
@@ -1238,7 +1249,8 @@
       "offCode": "7610807076806",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807076806",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-eisbergsalat.jpg"
+      "image": "img/coop-eisbergsalat.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-saisonsalat-bio",
@@ -1260,7 +1272,8 @@
       "offCode": "7627534916756",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534916756",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-saisonsalat-bio.jpg"
+      "image": "img/coop-saisonsalat-bio.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-selleriesalat-bio",
@@ -1282,7 +1295,8 @@
       "offCode": "7610807139334",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807139334",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-selleriesalat-bio.jpg"
+      "image": "img/coop-selleriesalat-bio.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-rueebli-geraffelt-bio",
@@ -1304,7 +1318,8 @@
       "offCode": "7627535106903",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535106903",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-rueebli-geraffelt-bio.jpg"
+      "image": "img/coop-rueebli-geraffelt-bio.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-high-protein-jogurt-nature",
@@ -1654,7 +1669,8 @@
       "offCode": "7627534188566",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534188566",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-saisonsalat-naturaplan.jpg"
+      "image": "img/coop-saisonsalat-naturaplan.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-nuesslisalat-rucola-bio",
@@ -1676,7 +1692,8 @@
       "offCode": "7627534503901",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534503901",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-nuesslisalat-rucola-bio.jpg"
+      "image": "img/coop-nuesslisalat-rucola-bio.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-salatmischung",
@@ -1698,7 +1715,8 @@
       "offCode": "7627534924379",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534924379",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-salatmischung.jpg"
+      "image": "img/coop-salatmischung.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-baumnuesse-bio",
@@ -1788,7 +1806,8 @@
       "offCode": "7610807076745",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807076745",
       "checkedAt": "2026-11-17",
-      "image": "img/coop-randensalat-bio.jpg"
+      "image": "img/coop-randensalat-bio.jpg",
+      "needs": "sauce"
     },
     {
       "id": "coop-nussmischung-bio",
@@ -2149,7 +2168,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "coop-gurke",
@@ -2171,7 +2191,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "coop-peperoni-rot",
@@ -2193,7 +2214,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "coop-kohlrabi",
@@ -2215,7 +2237,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-sandwich-chicken-ketchup",
@@ -3315,7 +3338,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186212918",
       "checkedAt": "2026-11-17",
       "image": "img/migros-vollkorn-landbrot.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-dinkelbrot",
@@ -3338,7 +3362,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7610169013341",
       "checkedAt": "2026-11-17",
       "image": null,
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-urdinkel-farmerbrot",
@@ -3361,7 +3386,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700138177",
       "checkedAt": "2026-11-17",
       "image": "img/migros-urdinkel-farmerbrot.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-toast-dunkel",
@@ -3384,7 +3410,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404571477",
       "checkedAt": "2026-11-17",
       "image": "img/migros-toast-dunkel.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-knaeckebrot-sesam-vollkorn",
@@ -3407,7 +3434,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312289341",
       "checkedAt": "2026-11-17",
       "image": "img/migros-knaeckebrot-sesam-vollkorn.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-roggen-knaeckebrot",
@@ -3430,7 +3458,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312644478",
       "checkedAt": "2026-11-17",
       "image": "img/migros-roggen-knaeckebrot.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-sonnenblumen-carre",
@@ -3452,7 +3481,8 @@
       "offCode": "7616700158953",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700158953",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-petit-rustique",
@@ -3474,7 +3504,8 @@
       "offCode": "7613269426493",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269426493",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-broetli-gourmet",
@@ -3496,7 +3527,8 @@
       "offCode": "7616700223910",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700223910",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-kartoffel-baumnuss-broetli",
@@ -3518,7 +3550,8 @@
       "offCode": "7616700175370",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700175370",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-basler-ruchbrot",
@@ -3541,7 +3574,8 @@
       "sourceUrl": "https://world.openfoodfacts.org/product/7610200428974",
       "checkedAt": "2026-11-17",
       "image": "img/migros-basler-ruchbrot.jpg",
-      "keepsOpen": true
+      "keepsOpen": true,
+      "dipper": true
     },
     {
       "id": "migros-hummus-basilikum",
@@ -3563,7 +3597,8 @@
       "offCode": "7613269511168",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269511168",
       "checkedAt": "2026-11-17",
-      "image": "img/migros-hummus-basilikum.jpg"
+      "image": "img/migros-hummus-basilikum.jpg",
+      "needs": "dip"
     },
     {
       "id": "migros-hummus-nature",
@@ -3585,7 +3620,8 @@
       "offCode": "7613404180655",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404180655",
       "checkedAt": "2026-11-17",
-      "image": "img/migros-hummus-nature.jpg"
+      "image": "img/migros-hummus-nature.jpg",
+      "needs": "dip"
     },
     {
       "id": "migros-hummus-randen",
@@ -3607,7 +3643,8 @@
       "offCode": "7613404622513",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404622513",
       "checkedAt": "2026-11-17",
-      "image": "img/migros-hummus-randen.jpg"
+      "image": "img/migros-hummus-randen.jpg",
+      "needs": "dip"
     },
     {
       "id": "migros-edamame",
@@ -4026,7 +4063,8 @@
       "offCode": "7617027631419",
       "sourceUrl": "https://world.openfoodfacts.org/product/7617027631419",
       "checkedAt": "2026-11-17",
-      "image": "img/migros-mischsalat.jpg"
+      "image": "img/migros-mischsalat.jpg",
+      "needs": "sauce"
     },
     {
       "id": "migros-salade-melee",
@@ -4048,7 +4086,8 @@
       "offCode": "7613116005222",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613116005222",
       "checkedAt": "2026-11-17",
-      "image": "img/migros-salade-melee.jpg"
+      "image": "img/migros-salade-melee.jpg",
+      "needs": "sauce"
     },
     {
       "id": "migros-gaertnersalat",
@@ -4070,7 +4109,8 @@
       "offCode": "7613404179314",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404179314",
       "checkedAt": "2026-11-17",
-      "image": "img/migros-gaertnersalat.jpg"
+      "image": "img/migros-gaertnersalat.jpg",
+      "needs": "sauce"
     },
     {
       "id": "migros-gurkensalat",
@@ -4453,7 +4493,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-gurke",
@@ -4475,7 +4516,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-peperoni-rot",
@@ -4497,7 +4539,8 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
     },
     {
       "id": "migros-kohlrabi",
@@ -4519,7 +4562,74 @@
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
       "checkedAt": "2026-11-17",
-      "image": null
+      "image": null,
+      "dipper": true
+    },
+    {
+      "id": "coop-salatsauce-naturelle",
+      "store": "coop",
+      "name": "Salatsauce Naturelle (Bruno's)",
+      "portion": "1 Dose (55 ml)",
+      "priceChf": null,
+      "kcal": 213,
+      "proteinG": 0.5,
+      "fiberG": 0,
+      "sugarG": 1,
+      "prep": "kalt",
+      "microwaveMin": 0,
+      "role": "sauce",
+      "meals": [
+        "mittag",
+        "abend"
+      ],
+      "offCode": "7640109670266",
+      "sourceUrl": "https://world.openfoodfacts.org/product/7640109670266",
+      "checkedAt": "2026-11-18",
+      "image": "img/coop-salatsauce-naturelle.jpg"
+    },
+    {
+      "id": "coop-salatsauce-french",
+      "store": "coop",
+      "name": "Salatsauce French (Bruno's)",
+      "portion": "1 Dose (55 g)",
+      "priceChf": null,
+      "kcal": 239,
+      "proteinG": 0.8,
+      "fiberG": 0,
+      "sugarG": 0.2,
+      "prep": "kalt",
+      "microwaveMin": 0,
+      "role": "sauce",
+      "meals": [
+        "mittag",
+        "abend"
+      ],
+      "offCode": "7640109670259",
+      "sourceUrl": "https://world.openfoodfacts.org/product/7640109670259",
+      "checkedAt": "2026-11-18",
+      "image": "img/coop-salatsauce-french.jpg"
+    },
+    {
+      "id": "migros-balsamico-dressing",
+      "store": "migros",
+      "name": "Balsamico Dressing (Anna's Best)",
+      "portion": "1 Becher (50 ml)",
+      "priceChf": null,
+      "kcal": 92,
+      "proteinG": 0.3,
+      "fiberG": 0.3,
+      "sugarG": 6,
+      "prep": "kalt",
+      "microwaveMin": 0,
+      "role": "sauce",
+      "meals": [
+        "mittag",
+        "abend"
+      ],
+      "offCode": "7613269198406",
+      "sourceUrl": "https://world.openfoodfacts.org/product/7613269198406",
+      "checkedAt": "2026-11-18",
+      "image": "img/migros-balsamico-dressing.jpg"
     }
   ]
 }

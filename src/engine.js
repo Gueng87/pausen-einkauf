@@ -13,6 +13,7 @@ const EPS = 1e-9; // Toleranz für Gleitkomma-Rundung beim Abschneiden der Suche
 
 const byId = (a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 const byKey = (a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0);
+const sum = (items, get) => items.reduce((s, p) => s + get(p), 0);
 const round = (v, digits) => Math.round(v * 10 ** digits) / 10 ** digits;
 const keyOf = (items) => items.map((p) => p.id).sort().join("+");
 
@@ -69,23 +70,50 @@ function search(products, query, state, prep) {
       (prep === "mikrowelle" || p.prep === "kalt"),
   );
   const hauptList = pool.filter((p) => p.role === "haupt");
-  const extras = pool
-    .filter((p) => p.role === "beilage" || p.role === "frisch")
-    .sort((a, b) => a.kcal - b.kcal || byId(a, b));
-
   const history = state.history || [];
   const last5 = recentIds(history, 5);
   const last30 = recentIds(history, 30);
   const variety = (p) => (last5.has(p.id) ? -3 : last30.has(p.id) ? 0 : 1);
   const isMw = (p) => (p.prep === "mikrowelle" ? 1 : 0);
 
+  // Extras als Kombis: ein Produkt ohne needs allein, mit needs "sauce" je eine Kombi pro Sauce,
+  // mit needs "dip" je eine pro Dipper. Ohne Partner fällt das Produkt weg. Eine Kombi belegt
+  // einen Extra-Platz; ihre Werte sind die Summen. Saucen stehen nie allein im Korb.
+  const sauces = pool.filter((p) => p.role === "sauce");
+  const dippers = pool.filter((p) => p.dipper === true);
+  const extras = [];
+  for (const p of pool) {
+    if (p.role !== "beilage" && p.role !== "frisch") continue;
+    const partners = p.needs === "sauce" ? sauces : p.needs === "dip" ? dippers.filter((d) => d.id !== p.id) : [null];
+    for (const partner of partners) {
+      const items = partner ? [p, partner] : [p];
+      extras.push({
+        items,
+        ids: items.map((x) => x.id),
+        pair: partner ? { productId: p.id, partnerId: partner.id, kind: p.needs } : null,
+        kcal: sum(items, (x) => x.kcal), proteinG: sum(items, (x) => x.proteinG), fiberG: sum(items, (x) => x.fiberG),
+        variety: items.reduce((v, x) => v + variety(x), 0),
+        mw: items.some((x) => x.prep === "mikrowelle") ? 1 : 0,
+      });
+    }
+  }
+  extras.sort((a, b) => a.kcal - b.kcal || (a.ids.join("+") < b.ids.join("+") ? -1 : a.ids.join("+") > b.ids.join("+") ? 1 : 0));
+
   // Nährwerte der Extras als Zahlen-Arrays, damit die Schleifen nichts anlegen müssen.
   const n = extras.length;
   const K = Float64Array.from(extras, (p) => p.kcal);
   const P = Float64Array.from(extras, (p) => p.proteinG);
   const F = Float64Array.from(extras, (p) => p.fiberG);
-  const V = Float64Array.from(extras, variety);
-  const M = Uint8Array.from(extras, isMw);
+  const V = Float64Array.from(extras, (e) => e.variety);
+  const M = Uint8Array.from(extras, (e) => e.mw);
+  // conf[i * n + j] = 1: die Extras i und j enthalten dasselbe Produkt (kein Produkt doppelt im Korb).
+  // Das Auslassen solcher Körbe verkleinert nur die Kandidaten; die Schranken in explore() bleiben gültig.
+  const conf = new Uint8Array(n * n);
+  for (let a = 0; a < n; a++) {
+    for (let b = a + 1; b < n; b++) {
+      if (extras[a].ids.some((id) => extras[b].ids.includes(id))) conf[a * n + b] = conf[b * n + a] = 1;
+    }
+  }
   const { kcalMin, kcalMax, proteinMin, fiberMin } = t;
   const needMw = prep === "mikrowelle";
 
@@ -98,8 +126,9 @@ function search(products, query, state, prep) {
   let haupt;
   let bonus;
   const entry = (idx, extra) => {
-    const items = [haupt, ...idx.filter((x) => x >= 0).map((x) => extras[x])];
-    return { items, key: keyOf(items), ...extra };
+    const chosen = idx.filter((x) => x >= 0).map((x) => extras[x]);
+    const items = [haupt, ...chosen.flatMap((e) => e.items)];
+    return { items, pairs: chosen.filter((e) => e.pair).map((e) => e.pair), key: keyOf(items), ...extra };
   };
   function addValid(score, i, j, l) {
     validCount++;
@@ -178,26 +207,31 @@ function search(products, query, state, prep) {
     validBound = -Infinity;
     bonus = Math.min(3, 0.5 * countSuccesses(history, haupt.id, query.duration));
     const k0 = haupt.kcal, p0 = haupt.proteinG, f0 = haupt.fiberG, v0 = variety(haupt), m0 = isMw(haupt);
+    const hid = haupt.id;
     consider(k0, p0, f0, v0, m0, -1, -1, -1);
     if (!explore(k0, k0, p0, f0, 3)) continue;
     for (let i = 0; i < n; i++) {
       if (!mwLeft(m0, i)) break;
       const k1 = k0 + K[i], p1 = p0 + P[i], f1 = f0 + F[i], v1 = v0 + V[i], m1 = m0 + M[i];
-      consider(k1, p1, f1, v1, m1, i, -1, -1);
+      const own1 = !extras[i].ids.includes(hid); // Kombi enthält nicht das Hauptprodukt
+      if (own1) consider(k1, p1, f1, v1, m1, i, -1, -1);
       if (k1 > kcalMax && !explore(k0, k1, p0, f0, 3)) break;
-      if (!explore(k1, k1, p1, f1, 2)) continue;
+      if (!own1 || !explore(k1, k1, p1, f1, 2)) continue;
       for (let j = i + 1; j < n; j++) {
         if (!mwLeft(m1, j)) break;
         const k2 = k1 + K[j], p2 = p1 + P[j], f2 = f1 + F[j], v2 = v1 + V[j], m2 = m1 + M[j];
-        consider(k2, p2, f2, v2, m2, i, j, -1);
+        const ok2 = conf[i * n + j] === 0 && !extras[j].ids.includes(hid);
+        if (ok2) consider(k2, p2, f2, v2, m2, i, j, -1);
         if (k2 > kcalMax && !explore(k1, k2, p1, f1, 2)) break;
-        if (!explore(k2, k2, p2, f2, 1)) continue;
+        if (!ok2 || !explore(k2, k2, p2, f2, 1)) continue;
         // Mit einem gültigen Korb zählen nur noch Körbe ab kcalMin: leichtere Extras überspringen.
         const lStart = validCount > 0 ? Math.max(j + 1, countBelow(kcalMin - k2, true)) : j + 1;
         for (let l = lStart; l < n; l++) {
           if (!mwLeft(m2, l)) break;
           const k3 = k2 + K[l];
-          consider(k3, p2 + P[l], f2 + F[l], v2 + V[l], m2 + M[l], i, j, l);
+          if (conf[i * n + l] === 0 && conf[j * n + l] === 0 && !extras[l].ids.includes(hid)) {
+            consider(k3, p2 + P[l], f2 + F[l], v2 + V[l], m2 + M[l], i, j, l);
+          }
           if (k3 > kcalMax && !explore(k2, k3, p2, f2, 1)) break;
         }
       }
@@ -249,13 +283,14 @@ function pickReserve(products, query, state) {
   return options[0] ?? null;
 }
 
-function makeBasket(prep, { items, key }, reserve, fallback) {
+function makeBasket(prep, { items, key, pairs }, reserve, fallback) {
   // Feldzugriff per Funktion statt per Text-Schlüssel (Textprüfung nach Ruling R4).
   const total = (get) => items.reduce((s, p) => s + get(p), 0);
   const prices = items.map((p) => p.priceChf);
   return {
     prep,
     items,
+    pairs,
     reserve,
     totals: {
       kcal: round(total((p) => p.kcal), 1),

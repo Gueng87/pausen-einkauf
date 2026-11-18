@@ -128,6 +128,8 @@ export function setupPhotoDialog({ dialog, img, closeBtn }) {
   });
 }
 
+const PARTNER_TEXT = { sauce: "Sauce für den Salat", dip: "zum Dippen" };
+
 const TITLES = { kalt: "KALT", mikrowelle: "MIKROWELLE" };
 
 /**
@@ -150,6 +152,7 @@ export function renderBasketCard(view, handlers) {
     el("div", { class: "basket-head" }, el("h2", {}, TITLES[prep]), el("span", { class: "total" }, basketPriceText(basket.totals))),
   );
 
+  const partnerKind = new Map((basket.pairs ?? []).map((pr) => [pr.partnerId, pr.kind]));
   const list = el("ul", { class: "items" });
   for (const p of basket.items) {
     const meta = [p.portion, prep === "mikrowelle" && p.microwaveMin > 0 ? `(${p.microwaveMin} Min.)` : null, productPriceText(p)];
@@ -158,7 +161,7 @@ export function renderBasketCard(view, handlers) {
         "li",
         {},
         thumbnail(p, handlers),
-        el("span", { class: "item-text" }, el("span", { class: "item-name" }, p.name), el("span", { class: "item-meta" }, meta.filter(Boolean).join(" · ")), restHint(p.portion) ? el("span", { class: "item-meta" }, restHint(p.portion)) : null),
+        el("span", { class: "item-text" }, el("span", { class: "item-name" }, p.name), el("span", { class: "item-meta" }, meta.filter(Boolean).join(" · ")), restHint(p.portion) ? el("span", { class: "item-meta" }, restHint(p.portion)) : null, partnerKind.has(p.id) ? el("span", { class: "item-meta" }, PARTNER_TEXT[partnerKind.get(p.id)]) : null),
         el("button", { type: "button", "data-dislike": p.id, onclick: () => handlers.onDislike(prep, p.id) }, "mag ich nicht"),
       ),
     );

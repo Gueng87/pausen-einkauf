@@ -1,7 +1,8 @@
 // Produktmodell: Validierung der Produktliste (products.json).
 
 const STORES = ["coop", "migros"];
-const ROLES = ["haupt", "beilage", "frisch", "reserve"];
+const ROLES = ["haupt", "beilage", "frisch", "reserve", "sauce"];
+const NEEDS = ["sauce", "dip"]; // Produkt braucht eine Sauce (Salat) bzw. etwas zum Dippen (Hummus)
 const PREPS = ["kalt", "mikrowelle"];
 const MEALS = ["mittag", "abend"];
 const STRING_FIELDS = ["id", "store", "name", "portion", "prep", "role", "sourceUrl", "checkedAt"];
@@ -58,6 +59,15 @@ function validateProduct(p, index) {
   }
   if (p.image !== undefined && p.image !== null && !(typeof p.image === "string" && IMAGE_RE.test(p.image))) {
     errors.push(`${label}: image muss null oder ein Pfad wie img/<id>.jpg sein`);
+  }
+  if (p.needs !== undefined) {
+    if (!NEEDS.includes(p.needs)) errors.push(`${label}: needs muss «sauce» oder «dip» sein`);
+    else if (p.role !== "beilage" && p.role !== "frisch") errors.push(`${label}: needs gibt es nur bei beilage und frisch`);
+  }
+  if (p.dipper !== undefined) {
+    if (typeof p.dipper !== "boolean") errors.push(`${label}: dipper muss true oder false sein`);
+    else if (p.dipper && p.needs !== undefined) errors.push(`${label}: dipper und needs schliessen sich aus`);
+    else if (p.dipper && p.role !== "beilage" && p.role !== "frisch") errors.push(`${label}: dipper gibt es nur bei beilage und frisch`);
   }
   if (p.keepsOpen !== undefined && typeof p.keepsOpen !== "boolean") {
     errors.push(`${label}: keepsOpen muss true oder false sein`);
