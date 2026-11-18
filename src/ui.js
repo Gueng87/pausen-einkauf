@@ -91,6 +91,12 @@ function el(tag, props = {}, ...children) {
   return node;
 }
 
+/** Kleines Produktfoto; ohne Foto ein leerer Platzhalter gleicher Grösse, damit der Text bündig bleibt. */
+function thumbnail(p) {
+  if (!p.image) return el("span", { class: "thumb thumb-empty", "aria-hidden": "true" });
+  return el("img", { class: "thumb", src: p.image, alt: "", width: 48, height: 48, loading: "lazy" });
+}
+
 const TITLES = { kalt: "KALT", mikrowelle: "MIKROWELLE" };
 
 /**
@@ -120,7 +126,8 @@ export function renderBasketCard(view, handlers) {
       el(
         "li",
         {},
-        el("span", {}, el("span", { class: "item-name" }, p.name), el("span", { class: "item-meta" }, meta.filter(Boolean).join(" · ")), restHint(p.portion) ? el("span", { class: "item-meta" }, restHint(p.portion)) : null),
+        thumbnail(p),
+        el("span", { class: "item-text" }, el("span", { class: "item-name" }, p.name), el("span", { class: "item-meta" }, meta.filter(Boolean).join(" · ")), restHint(p.portion) ? el("span", { class: "item-meta" }, restHint(p.portion)) : null),
         el("button", { type: "button", "data-dislike": p.id, onclick: () => handlers.onDislike(prep, p.id) }, "mag ich nicht"),
       ),
     );

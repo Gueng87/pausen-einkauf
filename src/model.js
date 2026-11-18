@@ -10,6 +10,9 @@ const REQUIRED_FIELDS = [
   ...STRING_FIELDS, "priceChf", ...NUMBER_FIELDS, "microwaveMin", "meals", "offCode",
 ];
 
+// Optionales Produktfoto: relativer Pfad im App-Ordner (siehe tools/images.mjs).
+const IMAGE_RE = /^img\/[a-z0-9-]+\.jpg$/;
+
 const isNumber = (v) => typeof v === "number" && Number.isFinite(v);
 
 function validateProduct(p, index) {
@@ -52,6 +55,9 @@ function validateProduct(p, index) {
   }
   if (p.offCode !== null && typeof p.offCode !== "string") {
     errors.push(`${label}: offCode muss ein Text oder null sein`);
+  }
+  if (p.image !== undefined && p.image !== null && !(typeof p.image === "string" && IMAGE_RE.test(p.image))) {
+    errors.push(`${label}: image muss null oder ein Pfad wie img/<id>.jpg sein`);
   }
   return errors;
 }

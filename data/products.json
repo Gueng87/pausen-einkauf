@@ -20,7 +20,8 @@
       ],
       "offCode": "7610807001365",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807001365",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-sandwich-vorderschinken-ei.jpg"
     },
     {
       "id": "coop-sandwich-poulet-tartare",
@@ -41,7 +42,8 @@
       ],
       "offCode": "7610818667079",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610818667079",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-sandwich-poulet-tartare.jpg"
     },
     {
       "id": "coop-high-protein-cottage-cheese",
@@ -62,7 +64,8 @@
       ],
       "offCode": "7624841313070",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841313070",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-high-protein-cottage-cheese.jpg"
     },
     {
       "id": "coop-halbfettquark",
@@ -81,9 +84,10 @@
         "mittag",
         "abend"
       ],
-      "offCode": "03356045",
-      "sourceUrl": "https://world.openfoodfacts.org/product/03356045",
-      "checkedAt": "2026-11-17"
+      "offCode": null,
+      "sourceUrl": "https://www.coop.ch/de/search/?text=Halbfettquark",
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-magerquark",
@@ -104,7 +108,8 @@
       ],
       "offCode": "7627534995591",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534995591",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-magerquark.jpg"
     },
     {
       "id": "coop-falafel-tahina",
@@ -125,7 +130,8 @@
       ],
       "offCode": "7624841099141",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841099141",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-falafel-tahina.jpg"
     },
     {
       "id": "coop-lemon-basil-pasta",
@@ -146,7 +152,8 @@
       ],
       "offCode": "7613331464750",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613331464750",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-lemon-basil-pasta.jpg"
     },
     {
       "id": "coop-teigwarensalat-pesto",
@@ -167,7 +174,8 @@
       ],
       "offCode": "7627535713453",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535713453",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-teigwarensalat-pesto.jpg"
     },
     {
       "id": "coop-greek-salad",
@@ -188,7 +196,8 @@
       ],
       "offCode": "7610807171952",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807171952",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-greek-salad.jpg"
     },
     {
       "id": "coop-cervelat-kaese-salat",
@@ -209,7 +218,8 @@
       ],
       "offCode": "7624841654937",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841654937",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-cervelat-kaese-salat.jpg"
     },
     {
       "id": "coop-taboule-oriental",
@@ -230,7 +240,8 @@
       ],
       "offCode": "7610829517424",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610829517424",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-taboule-oriental.jpg"
     },
     {
       "id": "coop-teriyaki-rice-bowl",
@@ -251,7 +262,8 @@
       ],
       "offCode": "7627536606969",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627536606969",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-teriyaki-rice-bowl.jpg"
     },
     {
       "id": "coop-greek-pasta-salat",
@@ -272,7 +284,8 @@
       ],
       "offCode": "7610849096909",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610849096909",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-greek-pasta-salat.jpg"
     },
     {
       "id": "coop-salat-pouletbrust",
@@ -293,7 +306,8 @@
       ],
       "offCode": "7624841799331",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841799331",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-salat-pouletbrust.jpg"
     },
     {
       "id": "coop-pesto-pasta-chicken",
@@ -314,7 +328,8 @@
       ],
       "offCode": "7627538438292",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627538438292",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-pesto-pasta-chicken.jpg"
     },
     {
       "id": "coop-granola-berry-bowl",
@@ -334,7 +349,8 @@
       ],
       "offCode": "7627537923379",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627537923379",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-granola-berry-bowl.jpg"
     },
     {
       "id": "coop-penne-pollo",
@@ -355,7 +371,8 @@
       ],
       "offCode": "7624841844215",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841844215",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-penne-pollo.jpg"
     },
     {
       "id": "coop-piccata-milanese",
@@ -376,7 +393,8 @@
       ],
       "offCode": "7613413047338",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413047338",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-piccata-milanese.jpg"
     },
     {
       "id": "coop-rosemary-chicken",
@@ -397,7 +415,8 @@
       ],
       "offCode": "7613379128522",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613379128522",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-rosemary-chicken.jpg"
     },
     {
       "id": "coop-spaghetti-bolognese",
@@ -418,7 +437,8 @@
       ],
       "offCode": "7627535338076",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535338076",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-spaghetti-bolognese.jpg"
     },
     {
       "id": "coop-lasagne-al-forno",
@@ -439,7 +459,8 @@
       ],
       "offCode": "7613413717262",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413717262",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-lasagne-al-forno.jpg"
     },
     {
       "id": "coop-vegan-spaghetti-bolognese",
@@ -460,7 +481,8 @@
       ],
       "offCode": "7627536316103",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627536316103",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-vegan-spaghetti-bolognese.jpg"
     },
     {
       "id": "coop-massaman-curry",
@@ -481,7 +503,8 @@
       ],
       "offCode": "7627535695193",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535695193",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-massaman-curry.jpg"
     },
     {
       "id": "coop-crevetten-zitronensauce",
@@ -502,7 +525,8 @@
       ],
       "offCode": "7613379128218",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613379128218",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-crevetten-zitronensauce.jpg"
     },
     {
       "id": "coop-goldbutt-gemuese",
@@ -523,7 +547,8 @@
       ],
       "offCode": "7613356188235",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613356188235",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-goldbutt-gemuese.jpg"
     },
     {
       "id": "coop-fleischvoegel-kartoffelstock",
@@ -544,7 +569,8 @@
       ],
       "offCode": "7613356076273",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613356076273",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-fleischvoegel-kartoffelstock.jpg"
     },
     {
       "id": "coop-hoernli-gehacktes",
@@ -565,7 +591,8 @@
       ],
       "offCode": "7624841720281",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841720281",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-hoernli-gehacktes.jpg"
     },
     {
       "id": "coop-pasta-champignons",
@@ -586,7 +613,8 @@
       ],
       "offCode": "7613413428397",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413428397",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-pasta-champignons.jpg"
     },
     {
       "id": "coop-spaghetti-gamberetti",
@@ -607,7 +635,8 @@
       ],
       "offCode": "7610848033509",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610848033509",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-spaghetti-gamberetti.jpg"
     },
     {
       "id": "coop-yellow-thai-curry",
@@ -628,7 +657,8 @@
       ],
       "offCode": "7613356496590",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613356496590",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-yellow-thai-curry.jpg"
     },
     {
       "id": "coop-proteinbrot",
@@ -649,7 +679,8 @@
       ],
       "offCode": "7627535203831",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535203831",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-proteinbrot.jpg"
     },
     {
       "id": "coop-aelplerbrot-bio",
@@ -670,7 +701,8 @@
       ],
       "offCode": "7627537726772",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627537726772",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-aelplerbrot-bio.jpg"
     },
     {
       "id": "coop-puurebrot-bio",
@@ -691,7 +723,8 @@
       ],
       "offCode": "7627535145940",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535145940",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-puurebrot-bio.jpg"
     },
     {
       "id": "coop-nussbrot",
@@ -712,7 +745,8 @@
       ],
       "offCode": "7627536983503",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627536983503",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-nussbrot.jpg"
     },
     {
       "id": "coop-sandwich-toast",
@@ -733,7 +767,8 @@
       ],
       "offCode": "7627538244107",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627538244107",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-sandwich-toast.jpg"
     },
     {
       "id": "coop-knaeckebrot-kaese-kuerbiskern",
@@ -754,7 +789,8 @@
       ],
       "offCode": "7610829128231",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610829128231",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-knaeckebrot-kaese-kuerbiskern.jpg"
     },
     {
       "id": "coop-pancroc",
@@ -775,7 +811,8 @@
       ],
       "offCode": "7627534482510",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534482510",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-pancroc.jpg"
     },
     {
       "id": "coop-hummus-nature-bio",
@@ -796,7 +833,8 @@
       ],
       "offCode": "7613413464616",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413464616",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-hummus-nature-bio.jpg"
     },
     {
       "id": "coop-hummus-piri-piri",
@@ -817,7 +855,8 @@
       ],
       "offCode": "7610849112517",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610849112517",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-hummus-piri-piri.jpg"
     },
     {
       "id": "coop-hummus-pesto-verde",
@@ -838,7 +877,8 @@
       ],
       "offCode": "7627535720147",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535720147",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-hummus-pesto-verde.jpg"
     },
     {
       "id": "coop-falafel-tahina-dip",
@@ -859,7 +899,8 @@
       ],
       "offCode": "7627535702044",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535702044",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-falafel-tahina-dip.jpg"
     },
     {
       "id": "coop-blumenkohl-kichererbsenmus",
@@ -880,7 +921,8 @@
       ],
       "offCode": "7627535702075",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535702075",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-blumenkohl-kichererbsenmus.jpg"
     },
     {
       "id": "coop-tofu-fume",
@@ -901,7 +943,8 @@
       ],
       "offCode": "7627535159527",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535159527",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-tofu-fume.jpg"
     },
     {
       "id": "coop-vegi-smokey-tofu",
@@ -922,7 +965,8 @@
       ],
       "offCode": "7613356379459",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613356379459",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-vegi-smokey-tofu.jpg"
     },
     {
       "id": "coop-kefir-erdbeere",
@@ -943,7 +987,8 @@
       ],
       "offCode": "7627535395437",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535395437",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-kefir-erdbeere.jpg"
     },
     {
       "id": "coop-skyr-himbeere",
@@ -964,7 +1009,8 @@
       ],
       "offCode": "7624841841429",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841841429",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-skyr-himbeere.jpg"
     },
     {
       "id": "coop-griechischer-joghurt-nature",
@@ -985,7 +1031,8 @@
       ],
       "offCode": "7613196008656",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613196008656",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-griechischer-joghurt-nature.jpg"
     },
     {
       "id": "coop-picnic-eier-bio",
@@ -1006,7 +1053,8 @@
       ],
       "offCode": "7610809126950",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610809126950",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-picnic-eier-bio.jpg"
     },
     {
       "id": "coop-country-soft-apfel-erdbeer",
@@ -1027,7 +1075,8 @@
       ],
       "offCode": "7627534142254",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534142254",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-country-soft-apfel-erdbeer.jpg"
     },
     {
       "id": "coop-country-soft-brombeer-apfel",
@@ -1048,7 +1097,8 @@
       ],
       "offCode": "7627536956460",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627536956460",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-country-soft-brombeer-apfel.jpg"
     },
     {
       "id": "coop-tomatensuppe-mascarpone",
@@ -1069,7 +1119,8 @@
       ],
       "offCode": "7624841750899",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841750899",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-tomatensuppe-mascarpone.jpg"
     },
     {
       "id": "coop-kuerbissuppe-curry",
@@ -1090,7 +1141,8 @@
       ],
       "offCode": "7613413842926",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413842926",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-kuerbissuppe-curry.jpg"
     },
     {
       "id": "coop-buendner-gerstensuppe",
@@ -1111,7 +1163,8 @@
       ],
       "offCode": "7624841876964",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841876964",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-buendner-gerstensuppe.jpg"
     },
     {
       "id": "coop-mango-stuecke",
@@ -1132,7 +1185,8 @@
       ],
       "offCode": "7613413898572",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413898572",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-mango-stuecke.jpg"
     },
     {
       "id": "coop-nuesslisalat",
@@ -1153,7 +1207,8 @@
       ],
       "offCode": "7613356204508",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613356204508",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-nuesslisalat.jpg"
     },
     {
       "id": "coop-eisbergsalat",
@@ -1174,7 +1229,8 @@
       ],
       "offCode": "7610807076806",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807076806",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-eisbergsalat.jpg"
     },
     {
       "id": "coop-saisonsalat-bio",
@@ -1195,7 +1251,8 @@
       ],
       "offCode": "7627534916756",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534916756",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-saisonsalat-bio.jpg"
     },
     {
       "id": "coop-selleriesalat-bio",
@@ -1216,7 +1273,8 @@
       ],
       "offCode": "7610807139334",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807139334",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-selleriesalat-bio.jpg"
     },
     {
       "id": "coop-rueebli-geraffelt-bio",
@@ -1237,7 +1295,8 @@
       ],
       "offCode": "7627535106903",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535106903",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-rueebli-geraffelt-bio.jpg"
     },
     {
       "id": "coop-high-protein-jogurt-nature",
@@ -1258,7 +1317,8 @@
       ],
       "offCode": "7627534868406",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534868406",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-high-protein-jogurt-nature.jpg"
     },
     {
       "id": "coop-bio-beerenmueesli",
@@ -1278,7 +1338,8 @@
       ],
       "offCode": "7624841862738",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841862738",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-bio-beerenmueesli.jpg"
     },
     {
       "id": "coop-bio-joghurt-mueesli",
@@ -1298,7 +1359,8 @@
       ],
       "offCode": "7627534920319",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534920319",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-bio-joghurt-mueesli.jpg"
     },
     {
       "id": "coop-spinat-speckwaehe",
@@ -1319,7 +1381,8 @@
       ],
       "offCode": "7613413894277",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413894277",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-spinat-speckwaehe.jpg"
     },
     {
       "id": "coop-kaesewaehe",
@@ -1340,7 +1403,8 @@
       ],
       "offCode": "7610807087680",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807087680",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-kaesewaehe.jpg"
     },
     {
       "id": "coop-taboule-oriental-gross",
@@ -1361,7 +1425,8 @@
       ],
       "offCode": "7624841865777",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841865777",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-taboule-oriental-gross.jpg"
     },
     {
       "id": "coop-chicken-tikka-masala",
@@ -1382,7 +1447,8 @@
       ],
       "offCode": "7613379126689",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613379126689",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-chicken-tikka-masala.jpg"
     },
     {
       "id": "coop-high-protein-choco-drink",
@@ -1403,7 +1469,8 @@
       ],
       "offCode": "7627536694478",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627536694478",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-high-protein-choco-drink.jpg"
     },
     {
       "id": "coop-high-protein-erdbeer-drink",
@@ -1424,7 +1491,8 @@
       ],
       "offCode": "7627535292859",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627535292859",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-high-protein-erdbeer-drink.jpg"
     },
     {
       "id": "coop-crunchy-getreideriegel",
@@ -1445,7 +1513,8 @@
       ],
       "offCode": "7610848588245",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610848588245",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-crunchy-getreideriegel.jpg"
     },
     {
       "id": "coop-joghurt-natur",
@@ -1466,7 +1535,8 @@
       ],
       "offCode": "7611654107422",
       "sourceUrl": "https://world.openfoodfacts.org/product/7611654107422",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-joghurt-natur.jpg"
     },
     {
       "id": "coop-basilikum-tofu-bio",
@@ -1487,7 +1557,8 @@
       ],
       "offCode": "15650351",
       "sourceUrl": "https://world.openfoodfacts.org/product/15650351",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-basilikum-tofu-bio.jpg"
     },
     {
       "id": "coop-bbq-tofu-bio",
@@ -1508,7 +1579,8 @@
       ],
       "offCode": "7627534166045",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534166045",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-bbq-tofu-bio.jpg"
     },
     {
       "id": "coop-olive-zitrone-tofu-bio",
@@ -1529,28 +1601,8 @@
       ],
       "offCode": "7627534191054",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534191054",
-      "checkedAt": "2026-11-17"
-    },
-    {
-      "id": "coop-mini-silser-frischkaese",
-      "store": "coop",
-      "name": "Mini Silserli mit Frischkäse",
-      "portion": "1 Packung (90 g)",
-      "priceChf": null,
-      "kcal": 231,
-      "proteinG": 5.2,
-      "fiberG": 1.5,
-      "sugarG": 1.5,
-      "prep": "kalt",
-      "microwaveMin": 0,
-      "role": "beilage",
-      "meals": [
-        "mittag",
-        "abend"
-      ],
-      "offCode": "7827537695283",
-      "sourceUrl": "https://world.openfoodfacts.org/product/7827537695283",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-olive-zitrone-tofu-bio.jpg"
     },
     {
       "id": "coop-broetli-lachs",
@@ -1571,7 +1623,8 @@
       ],
       "offCode": "7627537004610",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627537004610",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-broetli-lachs.jpg"
     },
     {
       "id": "coop-saisonsalat-naturaplan",
@@ -1592,7 +1645,8 @@
       ],
       "offCode": "7627534188566",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534188566",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-saisonsalat-naturaplan.jpg"
     },
     {
       "id": "coop-nuesslisalat-rucola-bio",
@@ -1613,7 +1667,8 @@
       ],
       "offCode": "7627534503901",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534503901",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-nuesslisalat-rucola-bio.jpg"
     },
     {
       "id": "coop-salatmischung",
@@ -1634,7 +1689,8 @@
       ],
       "offCode": "7627534924379",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534924379",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-salatmischung.jpg"
     },
     {
       "id": "coop-baumnuesse-bio",
@@ -1655,7 +1711,8 @@
       ],
       "offCode": "7610848077046",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610848077046",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-baumnuesse-bio.jpg"
     },
     {
       "id": "coop-feigen-getrocknet",
@@ -1676,7 +1733,8 @@
       ],
       "offCode": "7613331714718",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613331714718",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-feigen-getrocknet.jpg"
     },
     {
       "id": "coop-wintersalat-bio",
@@ -1697,7 +1755,8 @@
       ],
       "offCode": "7627534916657",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534916657",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-wintersalat-bio.jpg"
     },
     {
       "id": "coop-randensalat-bio",
@@ -1718,7 +1777,8 @@
       ],
       "offCode": "7610807076745",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610807076745",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-randensalat-bio.jpg"
     },
     {
       "id": "coop-nussmischung-bio",
@@ -1739,7 +1799,8 @@
       ],
       "offCode": "7624841297509",
       "sourceUrl": "https://world.openfoodfacts.org/product/7624841297509",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-nussmischung-bio.jpg"
     },
     {
       "id": "coop-nussmischung",
@@ -1760,7 +1821,8 @@
       ],
       "offCode": "7627534485535",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534485535",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-nussmischung.jpg"
     },
     {
       "id": "coop-cashewnuesse-bio",
@@ -1781,7 +1843,8 @@
       ],
       "offCode": "7613413835386",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413835386",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-cashewnuesse-bio.jpg"
     },
     {
       "id": "coop-erdnuesse",
@@ -1802,7 +1865,8 @@
       ],
       "offCode": "7610845154641",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610845154641",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-erdnuesse.jpg"
     },
     {
       "id": "coop-pistazien",
@@ -1823,7 +1887,8 @@
       ],
       "offCode": "7613379635990",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613379635990",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-pistazien.jpg"
     },
     {
       "id": "coop-aprikosen-getrocknet",
@@ -1844,7 +1909,8 @@
       ],
       "offCode": "7613413835348",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613413835348",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-aprikosen-getrocknet.jpg"
     },
     {
       "id": "coop-mango-getrocknet",
@@ -1865,7 +1931,8 @@
       ],
       "offCode": "7627534902353",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627534902353",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-mango-getrocknet.jpg"
     },
     {
       "id": "coop-pepper-nut-mix",
@@ -1886,7 +1953,8 @@
       ],
       "offCode": "7627537123465",
       "sourceUrl": "https://world.openfoodfacts.org/product/7627537123465",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/coop-pepper-nut-mix.jpg"
     },
     {
       "id": "coop-apfel",
@@ -1907,7 +1975,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-banane",
@@ -1928,7 +1997,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-birne",
@@ -1949,7 +2019,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-orange",
@@ -1970,7 +2041,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-mandarinen",
@@ -1991,7 +2063,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-kiwi",
@@ -2012,7 +2085,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-trauben",
@@ -2033,7 +2107,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-rueebli",
@@ -2054,7 +2129,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-gurke",
@@ -2075,7 +2151,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-peperoni-rot",
@@ -2096,7 +2173,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "coop-kohlrabi",
@@ -2117,7 +2195,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-sandwich-chicken-ketchup",
@@ -2138,7 +2217,8 @@
       ],
       "offCode": "7613269251156",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269251156",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-chicken-ketchup.jpg"
     },
     {
       "id": "migros-sandwich-frischkaese",
@@ -2159,7 +2239,8 @@
       ],
       "offCode": "7613269683605",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269683605",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-frischkaese.jpg"
     },
     {
       "id": "migros-sandwich-schinken",
@@ -2180,7 +2261,8 @@
       ],
       "offCode": "7613269696087",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269696087",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-schinken.jpg"
     },
     {
       "id": "migros-sandwich-plant-based-bacon",
@@ -2201,7 +2283,8 @@
       ],
       "offCode": "7613404361252",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404361252",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-plant-based-bacon.jpg"
     },
     {
       "id": "migros-sandwich-tomate-mozzarella",
@@ -2222,7 +2305,8 @@
       ],
       "offCode": "7613269250647",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269250647",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-tomate-mozzarella.jpg"
     },
     {
       "id": "migros-sandwich-vegi-ei",
@@ -2243,7 +2327,8 @@
       ],
       "offCode": "7617027954570",
       "sourceUrl": "https://world.openfoodfacts.org/product/7617027954570",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-vegi-ei.jpg"
     },
     {
       "id": "migros-zoepfli-vorderschinken",
@@ -2264,7 +2349,8 @@
       ],
       "offCode": "7617027974790",
       "sourceUrl": "https://world.openfoodfacts.org/product/7617027974790",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-zoepfli-vorderschinken.jpg"
     },
     {
       "id": "migros-sandwich-lachs-tatar",
@@ -2285,7 +2371,8 @@
       ],
       "offCode": "7613404729748",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404729748",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-lachs-tatar.jpg"
     },
     {
       "id": "migros-sandwich-poulet-curry",
@@ -2306,7 +2393,8 @@
       ],
       "offCode": "7613269251118",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269251118",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-poulet-curry.jpg"
     },
     {
       "id": "migros-sandwich-lachs",
@@ -2327,7 +2415,8 @@
       ],
       "offCode": "7613269672555",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269672555",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-lachs.jpg"
     },
     {
       "id": "migros-spezialbrot-ei-tartar",
@@ -2348,7 +2437,8 @@
       ],
       "offCode": "7613269547105",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269547105",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-spezialbrot-ei-tartar.jpg"
     },
     {
       "id": "migros-sonnenblumenbroetli-kaese",
@@ -2369,7 +2459,8 @@
       ],
       "offCode": "7613269250371",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269250371",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sonnenblumenbroetli-kaese.jpg"
     },
     {
       "id": "migros-wrap-greek",
@@ -2390,7 +2481,8 @@
       ],
       "offCode": "7613269547020",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269547020",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-laugenbrezel-frischkaese",
@@ -2411,7 +2503,8 @@
       ],
       "offCode": "7613269250395",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269250395",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-laugenbrezel-frischkaese.jpg"
     },
     {
       "id": "migros-sandwich-fleischkaese",
@@ -2432,7 +2525,8 @@
       ],
       "offCode": "7613269250821",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269250821",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-fleischkaese.jpg"
     },
     {
       "id": "migros-sandwich-lachs-gross",
@@ -2453,7 +2547,8 @@
       ],
       "offCode": "7613404593448",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404593448",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-sandwich-lachs-gross.jpg"
     },
     {
       "id": "migros-cottage-cheese-nature",
@@ -2474,7 +2569,8 @@
       ],
       "offCode": "7613404831168",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404831168",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-cottage-cheese-nature.jpg"
     },
     {
       "id": "migros-cottage-cheese-kraeuter",
@@ -2495,7 +2591,8 @@
       ],
       "offCode": "7613404606636",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404606636",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-cottage-cheese-kraeuter.jpg"
     },
     {
       "id": "migros-cottage-cheese-piment",
@@ -2516,7 +2613,8 @@
       ],
       "offCode": "7613404831120",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404831120",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-cottage-cheese-piment.jpg"
     },
     {
       "id": "migros-magerquark",
@@ -2537,7 +2635,8 @@
       ],
       "offCode": "7623186070464",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186070464",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-magerquark.jpg"
     },
     {
       "id": "migros-skyr-nature",
@@ -2558,7 +2657,8 @@
       ],
       "offCode": "00118668",
       "sourceUrl": "https://world.openfoodfacts.org/product/00118668",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-skyr-nature.jpg"
     },
     {
       "id": "migros-beluga-linsensalat",
@@ -2579,7 +2679,8 @@
       ],
       "offCode": "7613269596035",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269596035",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-edamame-salat",
@@ -2600,7 +2701,8 @@
       ],
       "offCode": "7613269595496",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269595496",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-edamame-salat.jpg"
     },
     {
       "id": "migros-asia-noodle-salad",
@@ -2621,7 +2723,8 @@
       ],
       "offCode": "7613404534724",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404534724",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-asia-noodle-salad.jpg"
     },
     {
       "id": "migros-pastasalat-poulet",
@@ -2642,7 +2745,8 @@
       ],
       "offCode": "7613269271833",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269271833",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-pastasalat-poulet.jpg"
     },
     {
       "id": "migros-salatbowl-poulet",
@@ -2663,7 +2767,8 @@
       ],
       "offCode": "7613269055303",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269055303",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-salatbowl-poulet.jpg"
     },
     {
       "id": "migros-quinoasalat-tahini",
@@ -2684,7 +2789,8 @@
       ],
       "offCode": "7613269553540",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269553540",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-quinoasalat-tahini.jpg"
     },
     {
       "id": "migros-bulgursalat-hummus",
@@ -2705,7 +2811,8 @@
       ],
       "offCode": "7613269552871",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269552871",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-bulgursalat-hummus.jpg"
     },
     {
       "id": "migros-birchermueesli",
@@ -2725,7 +2832,8 @@
       ],
       "offCode": "7613269305248",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269305248",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-birchermueesli.jpg"
     },
     {
       "id": "migros-chicken-piccata-penne",
@@ -2746,7 +2854,8 @@
       ],
       "offCode": "7613269684725",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269684725",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-chicken-piccata-penne.jpg"
     },
     {
       "id": "migros-singapur-nudeln-huhn",
@@ -2767,7 +2876,8 @@
       ],
       "offCode": "7613269684268",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269684268",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-singapur-nudeln-huhn.jpg"
     },
     {
       "id": "migros-schweinsgeschnetzeltes-tagliatelle",
@@ -2788,7 +2898,8 @@
       ],
       "offCode": "7613404017920",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404017920",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-schweinsgeschnetzeltes-tagliatelle.jpg"
     },
     {
       "id": "migros-aelplermagronen",
@@ -2809,7 +2920,8 @@
       ],
       "offCode": "7613404363232",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404363232",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-aelplermagronen.jpg"
     },
     {
       "id": "migros-spaghetti-bolognese",
@@ -2830,7 +2942,8 @@
       ],
       "offCode": "7613404363263",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404363263",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-spaghetti-bolognese.jpg"
     },
     {
       "id": "migros-chili-con-carne",
@@ -2851,7 +2964,8 @@
       ],
       "offCode": "7616800835860",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616800835860",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-chili-con-carne.jpg"
     },
     {
       "id": "migros-chili-sin-carne",
@@ -2872,7 +2986,8 @@
       ],
       "offCode": "7613312225592",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312225592",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-chili-sin-carne.jpg"
     },
     {
       "id": "migros-cannelloni-bolognese",
@@ -2893,7 +3008,8 @@
       ],
       "offCode": "8021228901049",
       "sourceUrl": "https://world.openfoodfacts.org/product/8021228901049",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-cannelloni-bolognese.jpg"
     },
     {
       "id": "migros-lasagne-plant-based",
@@ -2914,7 +3030,8 @@
       ],
       "offCode": "7613312368176",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312368176",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-lasagne-plant-based.jpg"
     },
     {
       "id": "migros-stroganoff-rind",
@@ -2935,7 +3052,8 @@
       ],
       "offCode": "7623186358494",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186358494",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-stroganoff-rind.jpg"
     },
     {
       "id": "migros-spaghetti-soja-bolognese",
@@ -2956,7 +3074,8 @@
       ],
       "offCode": "7613404374726",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404374726",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-spaghetti-soja-bolognese.jpg"
     },
     {
       "id": "migros-chicken-teriyaki-reis",
@@ -2977,7 +3096,8 @@
       ],
       "offCode": "7623186151972",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186151972",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-chicken-teriyaki-reis.jpg"
     },
     {
       "id": "migros-riz-casimir",
@@ -2998,7 +3118,8 @@
       ],
       "offCode": "7613404177266",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404177266",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-riz-casimir.jpg"
     },
     {
       "id": "migros-bami-goreng-vegi",
@@ -3019,7 +3140,8 @@
       ],
       "offCode": "7613269501954",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269501954",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-bami-goreng-vegi.jpg"
     },
     {
       "id": "migros-plant-based-strips-suesskartoffel",
@@ -3040,7 +3162,8 @@
       ],
       "offCode": "7613404604809",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404604809",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-plant-based-strips-suesskartoffel.jpg"
     },
     {
       "id": "migros-falafel-couscous",
@@ -3061,7 +3184,8 @@
       ],
       "offCode": "7623186090790",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186090790",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-falafel-couscous.jpg"
     },
     {
       "id": "migros-spaghetti-carbonara",
@@ -3082,7 +3206,8 @@
       ],
       "offCode": "7613404363270",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404363270",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-spaghetti-carbonara.jpg"
     },
     {
       "id": "migros-gehacktes-hoernli",
@@ -3103,7 +3228,8 @@
       ],
       "offCode": "7613404764930",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404764930",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-gehacktes-hoernli.jpg"
     },
     {
       "id": "migros-buendner-gerstensuppe",
@@ -3124,7 +3250,8 @@
       ],
       "offCode": "7613269375432",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269375432",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-buendner-gerstensuppe.jpg"
     },
     {
       "id": "migros-huettensuppe",
@@ -3145,7 +3272,8 @@
       ],
       "offCode": "7613269375456",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269375456",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-huettensuppe.jpg"
     },
     {
       "id": "migros-vollkorn-landbrot",
@@ -3166,7 +3294,8 @@
       ],
       "offCode": "7623186212918",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186212918",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-vollkorn-landbrot.jpg"
     },
     {
       "id": "migros-dinkelbrot",
@@ -3187,7 +3316,8 @@
       ],
       "offCode": "7610169013341",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610169013341",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-urdinkel-farmerbrot",
@@ -3208,7 +3338,8 @@
       ],
       "offCode": "7616700138177",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700138177",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-urdinkel-farmerbrot.jpg"
     },
     {
       "id": "migros-toast-dunkel",
@@ -3229,7 +3360,8 @@
       ],
       "offCode": "7613404571477",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404571477",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-toast-dunkel.jpg"
     },
     {
       "id": "migros-knaeckebrot-sesam-vollkorn",
@@ -3250,7 +3382,8 @@
       ],
       "offCode": "7613312289341",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312289341",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-knaeckebrot-sesam-vollkorn.jpg"
     },
     {
       "id": "migros-roggen-knaeckebrot",
@@ -3271,7 +3404,8 @@
       ],
       "offCode": "7613312644478",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312644478",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-roggen-knaeckebrot.jpg"
     },
     {
       "id": "migros-sonnenblumen-carre",
@@ -3292,7 +3426,8 @@
       ],
       "offCode": "7616700158953",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700158953",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-petit-rustique",
@@ -3313,7 +3448,8 @@
       ],
       "offCode": "7613269426493",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269426493",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-broetli-gourmet",
@@ -3334,7 +3470,8 @@
       ],
       "offCode": "7616700223910",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700223910",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-kartoffel-baumnuss-broetli",
@@ -3355,7 +3492,8 @@
       ],
       "offCode": "7616700175370",
       "sourceUrl": "https://world.openfoodfacts.org/product/7616700175370",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-basler-ruchbrot",
@@ -3376,7 +3514,8 @@
       ],
       "offCode": "7610200428974",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610200428974",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-basler-ruchbrot.jpg"
     },
     {
       "id": "migros-hummus-basilikum",
@@ -3397,7 +3536,8 @@
       ],
       "offCode": "7613269511168",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269511168",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-hummus-basilikum.jpg"
     },
     {
       "id": "migros-hummus-nature",
@@ -3418,7 +3558,8 @@
       ],
       "offCode": "7613404180655",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404180655",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-hummus-nature.jpg"
     },
     {
       "id": "migros-hummus-randen",
@@ -3439,7 +3580,8 @@
       ],
       "offCode": "7613404622513",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404622513",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-hummus-randen.jpg"
     },
     {
       "id": "migros-edamame",
@@ -3460,7 +3602,8 @@
       ],
       "offCode": "7613269501688",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269501688",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-edamame.jpg"
     },
     {
       "id": "migros-kefir-drink",
@@ -3481,7 +3624,8 @@
       ],
       "offCode": "7623186656057",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186656057",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-kefir-drink.jpg"
     },
     {
       "id": "migros-kefir-joghurt",
@@ -3502,7 +3646,8 @@
       ],
       "offCode": "7613404288207",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404288207",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-kefir-joghurt.jpg"
     },
     {
       "id": "migros-high-protein-quark-limette",
@@ -3523,7 +3668,8 @@
       ],
       "offCode": "7613404181669",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404181669",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-high-protein-quark-limette.jpg"
     },
     {
       "id": "migros-greek-style-heidelbeere",
@@ -3544,7 +3690,8 @@
       ],
       "offCode": "7613269501664",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269501664",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-greek-style-heidelbeere.jpg"
     },
     {
       "id": "migros-cottage-cheese-klein",
@@ -3565,7 +3712,8 @@
       ],
       "offCode": "7610200373304",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610200373304",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-cottage-cheese-klein.jpg"
     },
     {
       "id": "migros-picknick-eier",
@@ -3586,7 +3734,8 @@
       ],
       "offCode": "7613269130581",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269130581",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-picknick-eier.jpg"
     },
     {
       "id": "migros-farmer-soft-heidelbeere",
@@ -3607,7 +3756,8 @@
       ],
       "offCode": "7610121602989",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610121602989",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-farmer-soft-heidelbeere.jpg"
     },
     {
       "id": "migros-farmer-soft-peanuts",
@@ -3628,7 +3778,8 @@
       ],
       "offCode": "7610121603153",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610121603153",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-farmer-soft-peanuts.jpg"
     },
     {
       "id": "migros-farmer-soft-joghurt",
@@ -3649,7 +3800,8 @@
       ],
       "offCode": "7613269187356",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269187356",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-farmer-soft-joghurt.jpg"
     },
     {
       "id": "migros-tomatensuppe",
@@ -3670,7 +3822,8 @@
       ],
       "offCode": "7613269917762",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269917762",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-tomatensuppe.jpg"
     },
     {
       "id": "migros-tomaten-mascarpone-suppe",
@@ -3691,7 +3844,8 @@
       ],
       "offCode": "7613269374503",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269374503",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-tomaten-mascarpone-suppe.jpg"
     },
     {
       "id": "migros-gemuesesuppe-bio",
@@ -3712,7 +3866,8 @@
       ],
       "offCode": "7613404905166",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404905166",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-gemuesesuppe-bio.jpg"
     },
     {
       "id": "migros-kuerbissuppe-bio",
@@ -3733,7 +3888,8 @@
       ],
       "offCode": "7623186169182",
       "sourceUrl": "https://world.openfoodfacts.org/product/7623186169182",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-kuerbissuppe-bio.jpg"
     },
     {
       "id": "migros-rueeblisuppe-bio",
@@ -3754,7 +3910,8 @@
       ],
       "offCode": "7613269737520",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269737520",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-rueeblisuppe-bio.jpg"
     },
     {
       "id": "migros-kuerbis-kokos-suppe",
@@ -3775,7 +3932,8 @@
       ],
       "offCode": "7613269737827",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269737827",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-kuerbis-kokos-suppe.jpg"
     },
     {
       "id": "migros-steinpilzsuppe",
@@ -3796,7 +3954,8 @@
       ],
       "offCode": "7613312052051",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312052051",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-steinpilzsuppe.jpg"
     },
     {
       "id": "migros-ananas",
@@ -3817,7 +3976,8 @@
       ],
       "offCode": "7613269968139",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269968139",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-ananas.jpg"
     },
     {
       "id": "migros-mischsalat",
@@ -3838,7 +3998,8 @@
       ],
       "offCode": "7617027631419",
       "sourceUrl": "https://world.openfoodfacts.org/product/7617027631419",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-mischsalat.jpg"
     },
     {
       "id": "migros-salade-melee",
@@ -3859,7 +4020,8 @@
       ],
       "offCode": "7613116005222",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613116005222",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-salade-melee.jpg"
     },
     {
       "id": "migros-gaertnersalat",
@@ -3880,7 +4042,8 @@
       ],
       "offCode": "7613404179314",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404179314",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-gaertnersalat.jpg"
     },
     {
       "id": "migros-gurkensalat",
@@ -3901,7 +4064,8 @@
       ],
       "offCode": "7613404100448",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613404100448",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-gurkensalat.jpg"
     },
     {
       "id": "migros-mandeln",
@@ -3922,7 +4086,8 @@
       ],
       "offCode": "7613312022771",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312022771",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-mandeln.jpg"
     },
     {
       "id": "migros-cashewkerne",
@@ -3943,7 +4108,8 @@
       ],
       "offCode": "7613312022856",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312022856",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-cashewkerne.jpg"
     },
     {
       "id": "migros-haselnuesse",
@@ -3964,7 +4130,8 @@
       ],
       "offCode": "7610200010414",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610200010414",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-haselnuesse.jpg"
     },
     {
       "id": "migros-baumnuesse",
@@ -3985,7 +4152,8 @@
       ],
       "offCode": "7613312423127",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613312423127",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-baumnuesse.jpg"
     },
     {
       "id": "migros-erdnuesse-pikant",
@@ -4006,7 +4174,8 @@
       ],
       "offCode": "7613269296621",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269296621",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-erdnuesse-pikant.jpg"
     },
     {
       "id": "migros-datteln",
@@ -4027,7 +4196,8 @@
       ],
       "offCode": "7610200040732",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610200040732",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-datteln.jpg"
     },
     {
       "id": "migros-mango-getrocknet",
@@ -4048,7 +4218,8 @@
       ],
       "offCode": "7610200206626",
       "sourceUrl": "https://world.openfoodfacts.org/product/7610200206626",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-mango-getrocknet.jpg"
     },
     {
       "id": "migros-honey-nuts",
@@ -4069,7 +4240,8 @@
       ],
       "offCode": "7613269296584",
       "sourceUrl": "https://world.openfoodfacts.org/product/7613269296584",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": "img/migros-honey-nuts.jpg"
     },
     {
       "id": "migros-apfel",
@@ -4090,7 +4262,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-banane",
@@ -4111,7 +4284,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-birne",
@@ -4132,7 +4306,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-orange",
@@ -4153,7 +4328,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-mandarinen",
@@ -4174,7 +4350,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-kiwi",
@@ -4195,7 +4372,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-trauben",
@@ -4216,7 +4394,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-rueebli",
@@ -4237,7 +4416,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-gurke",
@@ -4258,7 +4438,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-peperoni-rot",
@@ -4279,7 +4460,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     },
     {
       "id": "migros-kohlrabi",
@@ -4300,7 +4482,8 @@
       ],
       "offCode": null,
       "sourceUrl": "https://naehrwertdaten.ch/de/search/",
-      "checkedAt": "2026-11-17"
+      "checkedAt": "2026-11-17",
+      "image": null
     }
   ]
 }
