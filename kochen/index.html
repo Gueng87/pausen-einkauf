@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2f6f4e">
+  <title>Satt &amp; Fit</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Satt &amp; Fit</h1>
+      <p class="sub">Grosse Teller, viel Eiweiss, wenig Kalorien.</p>
+    </header>
+
+    <section class="controls" aria-label="Auswahl">
+      <p class="label" id="store-label">Wo kaufst du ein?</p>
+      <div class="group" role="group" aria-labelledby="store-label" data-group="store">
+        <button type="button" data-value="migros">Migros</button>
+        <button type="button" data-value="coop">Coop</button>
+        <button type="button" data-value="denner">Denner</button>
+      </div>
+
+      <p class="label" id="portions-label">Für wie viele Portionen?</p>
+      <div class="stepper" role="group" aria-labelledby="portions-label">
+        <button type="button" id="portions-minus" aria-label="Eine Portion weniger">−</button>
+        <output id="portions-value" aria-live="polite">2 Portionen</output>
+        <button type="button" id="portions-plus" aria-label="Eine Portion mehr">+</button>
+      </div>
+      <p class="hint">Personen oder Mahlzeiten zum Vorkochen, z. B. 4 = 2 Personen × 2 Tage.</p>
+
+      <p class="label" id="diet-label">Was isst du?</p>
+      <div class="group" role="group" aria-labelledby="diet-label" data-group="diet">
+        <button type="button" data-value="alles">Alles</button>
+        <button type="button" data-value="vegi">Vegetarisch</button>
+      </div>
+    </section>
+
+    <section id="menu" aria-live="polite"></section>
+    <section id="detail"></section>
+
+    <footer>
+      <p id="dislikes-info" hidden></p>
+      <p>Nährwerte sind berechnete Richtwerte pro Portion. Preise und Packungsgrössen sind Richtwerte (Stand <span id="price-date"></span>), keine Live-Preise. Aktionen sind nicht berücksichtigt.</p>
+    </footer>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
