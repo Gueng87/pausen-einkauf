@@ -139,6 +139,7 @@ function renderMenu(recipe) {
       "article",
       { class: "card menu" },
       el("p", { class: "eyebrow" }, "Dein Menü"),
+      recipe.viral ? el("p", { class: "viral" }, `🔥 ${recipe.viral}`) : null,
       el("div", { class: "menu-head" }, el("span", { class: "emoji", "aria-hidden": "true" }, recipe.emoji), el("h2", {}, recipe.title)),
       el("p", { class: "desc" }, recipe.description),
       el("div", { class: "stats" }, stat(`${n.kcal}`, "kcal"), stat(`${n.protein} g`, "Eiweiss"), stat(`${n.plateG} g`, "auf dem Teller")),
