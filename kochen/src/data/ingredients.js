@@ -50,6 +50,7 @@ export const INGREDIENTS = {
   tomaten: { name: "Tomaten", aisle: "gemuese", n: [18, 0.9, 3, 0.2], stores: all("Tomaten 500 g", 500, 2.95, 3.2, 2.49) },
   eisberg: { name: "Eisbergsalat", aisle: "gemuese", n: [14, 1, 2, 0.2], piece: { g: 500, one: "Kopf", many: "Köpfe" }, stores: all("Eisbergsalat, 1 Stück", 500, 1.8, 1.95, 1.49) },
   fruehlingszwiebeln: { name: "Frühlingszwiebeln", aisle: "gemuese", n: [30, 1.8, 5, 0.2], stores: all("Frühlingszwiebeln, 1 Bund", 100, 1.5, 1.6, 1.29) },
+  weisskabis: { name: "Weisskabis", aisle: "gemuese", n: [25, 1.4, 4, 0.2], cook: 0.85, stores: all("Weisskabis, 1 Stück (ca. 1 kg)", 1000, 2.5, 2.7, 1.99) },
   zitrone: { name: "Zitrone", aisle: "gemuese", n: [30, 1, 3, 0.3], piece: { g: 100, one: "Zitrone", many: "Zitronen" }, stores: all("Zitronen 500 g", 500, 2.5, 2.7, 1.99) },
 
   // Fleisch & Fisch
@@ -62,6 +63,7 @@ export const INGREDIENTS = {
     name: "Rindsgeschnetzeltes", aisle: "fleisch", n: [120, 22, 0, 3.5], cook: 0.75,
     stores: { migros: ["Rindsgeschnetzeltes 300 g", 300, 13.5], coop: ["Rindsgeschnetzeltes 300 g", 300, 14.2], denner: ["Rindsgeschnetzeltes 400 g", 400, 13.95] },
   },
+  schweinsgeschnetzeltes: { name: "Schweinsgeschnetzeltes", aisle: "fleisch", n: [130, 22, 0, 4.5], cook: 0.75, stores: { migros: ["Schweinsgeschnetzeltes 300 g", 300, 7.9], coop: ["Schweinsgeschnetzeltes 300 g", 300, 8.5], denner: ["Schweinsgeschnetzeltes 500 g", 500, 9.95] } },
   schinken: {
     name: "Hinterschinken", aisle: "fleisch", n: [110, 20, 1, 3],
     stores: { migros: ["Hinterschinken 150 g", 150, 4.2], coop: ["Hinterschinken 150 g", 150, 4.5], denner: ["Hinterschinken 200 g", 200, 3.95] },
@@ -76,10 +78,13 @@ export const INGREDIENTS = {
   eier: { name: "Eier", aisle: "milch", n: [140, 12.5, 0.7, 10], piece: { g: 55, one: "Ei", many: "Eier" }, stores: all("Eier, 6 Stück", 330, 4.4, 4.6, 3.95) },
   parmesan: { name: "Parmesan, gerieben", aisle: "milch", n: [390, 33, 0, 28], stores: all("Parmesan gerieben 100 g", 100, 3.6, 3.8, 2.95) },
   feta: { name: "Feta", aisle: "milch", n: [260, 17, 0.5, 21], stores: all("Feta 200 g", 200, 3.95, 4.2, 2.99) },
+  mozzarella: { name: "Mozzarella", aisle: "milch", n: [230, 18, 1, 17], stores: all("Mozzarella 150 g (125 g abgetropft)", 125, 1.6, 1.7, 1.25) },
   kochcreme: { name: "Kochcrème (15 % Fett)", aisle: "milch", n: [160, 3, 4, 15], stores: all("Kochcrème 250 ml", 250, 2.2, 2.3, 1.79) },
 
   // Brot
   vollkornbrot: { name: "Vollkornbrot", aisle: "brot", n: [230, 8, 40, 2], stores: all("Vollkornbrot 500 g", 500, 3.2, 3.4, 2.49) },
+
+  tortillas: { name: "Tortillas (Weizen)", aisle: "brot", n: [300, 8.5, 50, 7], piece: { g: 60, one: "Tortilla", many: "Tortillas" }, stores: all("Tortillas, 6 Stück", 360, 3.2, 3.4, 2.49) },
 
   // Teigwaren, Reis & Konserven
   reis: { name: "Basmatireis", aisle: "vorrat", n: [350, 8, 77, 0.6], cook: 2.6, stores: all("Basmatireis 1 kg", 1000, 3.5, 3.7, 2.99) },
@@ -87,10 +92,9 @@ export const INGREDIENTS = {
   // In Migros und Coop gibt es Linsen-Teigwaren; bei Denner sind sie nicht sicher im Sortiment.
   linsenpasta: { name: "Rote-Linsen-Teigwaren", aisle: "vorrat", n: [340, 25, 50, 2], cook: 2.2, stores: all("Rote-Linsen-Fusilli 250 g", 250, 3.5, 3.95, null) },
   mie: { name: "Mie-Nudeln", aisle: "vorrat", n: [360, 12, 70, 2], cook: 2.3, stores: all("Mie-Nudeln 250 g", 250, 2.4, 2.6, null) },
-  thon: {
-    name: "Thon im eigenen Saft", aisle: "vorrat", n: [110, 25, 0, 1], piece: { g: 112, one: "Dose", many: "Dosen" },
-    stores: all("Thon im eigenen Saft, 3 × 155 g", 336, 5.5, 5.8, 4.95),
-  },
+  lasagneblaetter: { name: "Lasagneblätter", aisle: "vorrat", n: [350, 12, 70, 1.5], cook: 2, stores: all("Lasagneblätter 500 g", 500, 2.2, 2.4, 1.79) },
+  mehl: { name: "Weissmehl", aisle: "vorrat", n: [345, 10, 72, 1], stores: all("Weissmehl 1 kg", 1000, 1.95, 2.1, 1.45) },
+  essiggurken: { name: "Essiggurken", aisle: "vorrat", n: [20, 0.5, 3, 0.2], stores: all("Essiggurken, Glas (ca. 190 g abgetropft)", 190, 2.2, 2.4, 1.69) },
   kichererbsen: { name: "Kichererbsen (Dose, abgetropft)", aisle: "vorrat", n: [130, 7, 16, 2.5], piece: { g: 240, one: "Dose", many: "Dosen" }, stores: all("Kichererbsen, Dose 400 g", 240, 1.3, 1.4, 0.99) },
   kidney: { name: "Kidneybohnen (Dose, abgetropft)", aisle: "vorrat", n: [100, 7, 13, 0.5], piece: { g: 250, one: "Dose", many: "Dosen" }, stores: all("Kidneybohnen, Dose 400 g", 250, 1.3, 1.4, 0.99) },
   mais: { name: "Mais (Dose, abgetropft)", aisle: "vorrat", n: [80, 2.6, 13, 1.5], piece: { g: 140, one: "Dose", many: "Dosen" }, stores: all("Mais, Dose 285 g", 140, 1.5, 1.6, 1.19) },
@@ -98,7 +102,6 @@ export const INGREDIENTS = {
   passata: { name: "Passata", aisle: "vorrat", n: [35, 1.5, 6, 0.2], stores: all("Passata 500 g", 500, 1.6, 1.7, 1.29) },
 
   // Tiefkühl
-  lachs: { name: "Lachsfilet (tiefgekühlt)", aisle: "tk", n: [200, 20, 0, 13], cook: 0.9, stores: all("Lachsfilets tiefgekühlt 250 g", 250, 8.9, 9.5, 7.49) },
   crevetten: { name: "Crevetten, roh geschält (tiefgekühlt)", aisle: "tk", n: [70, 16, 0, 1], cook: 0.85, stores: all("Crevetten geschält, tiefgekühlt 400 g", 400, 12.5, 12.95, 9.95) },
   spinat_tk: { name: "Blattspinat (tiefgekühlt)", aisle: "tk", n: [23, 2.9, 0.6, 0.4], cook: 0.9, stores: { migros: ["Blattspinat tiefgekühlt 750 g", 750, 3.2], coop: ["Blattspinat tiefgekühlt 750 g", 750, 3.4], denner: ["Blattspinat tiefgekühlt 600 g", 600, 2.49] } },
   wokgemuese: { name: "Wokgemüse (tiefgekühlt)", aisle: "tk", n: [35, 2, 5, 0.3], cook: 0.9, stores: all("Wokgemüse tiefgekühlt 750 g", 750, 3.95, 4.2, 3.29) },
@@ -110,6 +113,11 @@ export const INGREDIENTS = {
   senf: { name: "Senf", pantry: true, n: [100, 6, 5, 5] },
   bouillon: { name: "Gemüsebouillon (Pulver)", pantry: true, n: [230, 10, 30, 8] },
   tomatenpueree: { name: "Tomatenpüree", pantry: true, n: [80, 4, 13, 0.5] },
+  ketchup: { name: "Ketchup", pantry: true, n: [100, 1.5, 23, 0.2] },
+  sriracha: { name: "Sriracha oder andere Chilisauce", pantry: true, n: [100, 2, 20, 1] },
+  backpulver: { name: "Backpulver", pantry: true, n: [0, 0, 0, 0] },
+  gyros: { name: "Gyros-Gewürz", pantry: true, n: [0, 0, 0, 0] },
+  ingwer: { name: "Ingwer, gemahlen", pantry: true, n: [0, 0, 0, 0] },
   paprika: { name: "Paprika edelsüss", pantry: true, n: [0, 0, 0, 0] },
   currypulver: { name: "Currypulver", pantry: true, n: [0, 0, 0, 0] },
   kreuzkuemmel: { name: "Kreuzkümmel", pantry: true, n: [0, 0, 0, 0] },

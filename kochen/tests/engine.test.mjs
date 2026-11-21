@@ -49,9 +49,14 @@ test("Jedes Rezept ist ein Sattmacher: ≤ 700 kcal, ≥ 38 g Eiweiss, < 100 kca
 
 test("Jeder Laden hat genug Menüs, auch vegetarisch", () => {
   for (const store of Object.keys(STORES)) {
-    assert.ok(candidates(RECIPES, ING, { store, diet: "alles" }).length >= 12, store);
-    assert.ok(candidates(RECIPES, ING, { store, diet: "vegi" }).length >= 3, store);
+    assert.ok(candidates(RECIPES, ING, { store, diet: "alles" }).length >= 25, store);
+    assert.ok(candidates(RECIPES, ING, { store, diet: "vegi" }).length >= 6, store);
   }
+});
+
+test("Kein Thunfisch und kein Lachs", () => {
+  for (const id of Object.keys(ING)) assert.ok(!/thon|thun|lachs/i.test(id + ING[id].name), id);
+  for (const r of RECIPES) assert.ok(!/thon|thun|lachs/i.test(r.title + r.description + r.steps.join(" ")), r.id);
 });
 
 test("Rezepte mit Zutaten, die es bei Denner nicht gibt, kommen dort nicht", () => {

@@ -5,6 +5,7 @@ Schlägt Menüs für zuhause vor: grosse Teller, viel Eiweiss, wenig Kalorien. D
 - Reines HTML/JS ohne Build, offline-fähig (Service Worker), wie die Pausen-App.
 - Rezepte: `src/data/recipes.js` (Mengen pro Portion)
 - Zutaten, Nährwerte, Packungen und Richtpreise pro Laden: `src/data/ingredients.js`
+- Virale Rezepte haben ein Feld `viral` mit der Quelle (wird als Hinweis angezeigt).
 - Logik: `src/engine.js`, Oberfläche: `src/main.js`
 
 ## Neues Rezept hinzufügen

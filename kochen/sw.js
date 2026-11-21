@@ -1,7 +1,7 @@
 // Service Worker: legt alle App-Dateien beim ersten Besuch ab, damit die Einkaufsliste
 // auch im Laden ohne Netz aufgeht. Es werden nur eigene Dateien geladen, nichts wird verschickt.
 // Wichtig: Jede Änderung an einer App-Datei wird erst ausgeliefert, wenn CACHE_VERSION erhöht wird.
-const CACHE_VERSION = "2026-11-21-1";
+const CACHE_VERSION = "2026-11-21-2";
 const PRECACHE = [
   "./",
   "index.html",
